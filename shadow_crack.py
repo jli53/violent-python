@@ -37,7 +37,7 @@ def testsha512(ppass):
 
 def main():
   if len(sys.argv) != 2:
-    print "[-] Usage:" + sys.argv[0] + " passwordfile"
+    print "[-] Usage:" + sys.argv[0] + " <passwordfile>\nthis program uses kali password dictionary 'rockyou.txt'."
     exit(0)
   passfile = open(sys.argv[1],'r')
   for line in passfile.readlines():
