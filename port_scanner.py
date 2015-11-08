@@ -33,7 +33,7 @@ def main():
       exit(0)
 
   else:
-    print "[-]Usage " + str(sys.argv[0]) + "<vuln filename>"
+    print "[-]Usage " + str(sys.argv[0]) + " <vuln filename>.\nvuln file is used for store known vulnerable banners"
     exit(0)
 
   portList = [21,22,25,80,110,443]
